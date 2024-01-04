@@ -5,7 +5,7 @@
 - **macOS:** 14.2.1 Sonoma
 
 # Changelog
-### Update: 20-March-2022
+### Update: 05-Jan-2024
 - Initial Release of macOS Sonoma
 
 # Specification:
