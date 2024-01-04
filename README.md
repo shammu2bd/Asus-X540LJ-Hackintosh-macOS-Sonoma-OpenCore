@@ -8,6 +8,8 @@
 ### Update: 05-Jan-2024
 - Initial Release of macOS Sonoma
 
+<img src="Docs/macOS Sonoma Asus x540LJ.jpg" width="600px" alt="Asus X540LJ macOS Sonoma OpenCore Hackintosh">
+
 # Specification:
 - **MainBoard:** Asus X540LJ.
 - **Processor:** Intel Core i3-5005U @ 2.0GHz (Broadwell)
