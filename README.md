@@ -8,7 +8,7 @@
 ### Update: 05-Jan-2024
 - Initial Release of macOS Sonoma
 
-<img src="Docs/macOS%20Sonoma%20Asus%20x540LJ.jpg" width="600px" alt="Asus X540LJ macOS Sonoma OpenCore Hackintosh">
+<img src="DOC/macOS Sonoma Asus x540LJ.jpg" width="600px" alt="Asus X540LJ macOS Sonoma OpenCore Hackintosh">
 
 # Specification:
 - **MainBoard:** Asus X540LJ.
