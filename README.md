@@ -81,7 +81,7 @@
 ### Wifi & Bluetooth:
 - My Wifi & Bluetooth are from Atheros. It doesn't work on it. So that I use USB wifi adapter. If your wifi is not from Atheros then find the solution from google.
 
-### Updateing macOS:
+### Updating macOS:
 - I will give you the detail guide later.
 
 ## Credits
