@@ -45,15 +45,16 @@
 - [ ] Wifi (External Wifi Dongle needed)
 - [ ] Bluetooth (External BT Dongle needed)
 
+# Installation:
 
-# BIOS Settings:
+### Download this before Install:
+
+
+### BIOS Settings
 - No need to change any BIOS settings. Set default BIOS settings.
 - If you use secondery monitor then disable `Launch CSM` in BIOS boot section.
 
-
-# Installation:
-
-### Installing macOS Sonoma
+### Installing macOS Sonoma:
 - Change the default BIOS settings.
 - Just put this EFI to your USB EFI partition.
 - If you don't know how to make bootable your USB then go [here.](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
@@ -61,23 +62,21 @@
 - If you are new then go [here.](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html#prerequisites)
 - After install mount the USB EFI and copy this to your HDD or SSD EFI.
   
-### Fixing Graphics Driver
-- Copy the 2nd config file `config > config 2 > config.plist` and past/replace it to your SSD EFI OC folder that located `EFI > OC`
+### Fixing Graphics Driver:
+- Copy the 2nd config file `config > config 2 > config.plist` then past/replace it to your SSD EFI OC folder that located `EFI > OC`
 - Reboot your laptop.
 - Open OCLP (OpenCore Legacy Patcher) & install root patch `OCLP > Post Install Root Patch > Start Root Patching`
 - After fininishing the patching Reboot your laptop.
-- 
- 
 
+### iMessege & Facetime Fix:
 
 - Change the serial numbers and other things. You can find the tutorial from [here.](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#platforminfo)
 
-
-
-# SSD Fix:
+### SSD Fix:
 - If you use SSD then you have to enable TRIM Support for better performance.
 - Go to the Terminal and type `sudo trimforce enable`
 - Then type **Y** and enter.
+- Again type **Y** and enter.
 
 
 
