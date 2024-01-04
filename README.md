@@ -52,15 +52,26 @@
 
 
 # Installation:
+
+### Installing macOS Sonoma
 - Change the default BIOS settings.
 - Just put this EFI to your USB EFI partition.
-- If you don't know how to bootable your USB then [here.](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
-- Install macOS Sonoma.
-- No need to install any additional kext to macOS extention. All driver will be loaded automatically.
+- If you don't know how to make bootable your USB then go [here.](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
+- Install macOS Sonoma to your SSD or HDD.
+- If you are new then go [here.](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html#prerequisites)
 - After install mount the USB EFI and copy this to your HDD or SSD EFI.
+  
+### Fixing Graphics Driver
+- Copy the 2nd config file `config > config 2 > config.plist` and past/replace it to your SSD EFI OC folder that located `EFI > OC`
+- Reboot your laptop.
+- Open OCLP (OpenCore Legacy Patcher) & install root patch `OCLP > Post Install Root Patch > Start Root Patching`
+- After fininishing the patching Reboot your laptop.
+- 
+ 
+
+
 - Change the serial numbers and other things. You can find the tutorial from [here.](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#platforminfo)
 
--**Detail installation guide is coming soon.**
 
 
 # SSD Fix:
