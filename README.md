@@ -42,17 +42,17 @@
 
 # Not WORKING:
 - [ ] Nvidia 920M GPU   **(will never work)**
-- [ ] Wifi (External Wifi Dongle needed)
-- [ ] Bluetooth (External BT Dongle needed)
+- [ ] Wifi (USB Wifi adapter needed)
+- [ ] Bluetooth (USB BT adapter needed)
 
 # Installation:
 
 ### Download this before Install:
-
+- `OCLP(OpenCore Legacy Patcher)` `EFI Mounter` `Provided EFI with Config folder`
 
 ### BIOS Settings
 - No need to change any BIOS settings. Set default BIOS settings.
-- If you use secondery monitor then disable `Launch CSM` in BIOS boot section.
+- If you use extra monitor then disable `Launch CSM` in BIOS boot section.
 
 ### Installing macOS Sonoma:
 - Change the default BIOS settings.
@@ -63,13 +63,12 @@
 - After install mount the USB EFI and copy this to your HDD or SSD EFI.
   
 ### Fixing Graphics Driver:
-- Copy the 2nd config file `config > config 2 > config.plist` then past/replace it to your SSD EFI OC folder that located `EFI > OC`
+- Copy the 2nd config file `Configs > config 2 > config.plist` then past/replace it to your SSD EFI OC folder that located `EFI > OC`
 - Reboot your laptop.
 - Open OCLP (OpenCore Legacy Patcher) & install root patch `OCLP > Post Install Root Patch > Start Root Patching`
 - After fininishing the patching Reboot your laptop.
 
 ### iMessege & Facetime Fix:
-
 - Change the serial numbers and other things. You can find the tutorial from [here.](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#platforminfo)
 
 ### SSD Fix:
@@ -78,7 +77,11 @@
 - Then type **Y** and enter.
 - Again type **Y** and enter.
 
+### Wifi & Bluetooth:
+- My Wifi & Bluetooth is from Atheros. So, It doesn't work on it. So that I use USB wifi dongle. If your wifi is not from Atheros then find the solution on google.
 
+### Updateing macOS:
+- I will give you the detail guide later.
 
 ## Credits
 @RehabMan for his guide for beginner
