@@ -92,12 +92,12 @@ There has two method to update. If update directly then the size of the update w
 
 ### Method 1:
 - Update macOS `System settings > General > Software Update`
-- Again root patch from OCLP.
+- After the update again root patch from OCLP.
 
 ### Method 2:
 - open OCLP & revert the patch. `OCLP > Post Install Root Patch > Revert Root Patching` then Reboot your laptop.
 - Update macOS using Ethernet cable. `System settings > General > Software Update`
-- After the update again install the root patch from OCLP.
+- After the update again root patch from OCLP.
 
 ## Credits
 @RehabMan for his guide for beginner
