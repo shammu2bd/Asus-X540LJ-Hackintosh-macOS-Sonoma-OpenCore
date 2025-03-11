@@ -34,7 +34,7 @@
 # WORKING:
 - [x] Power Management
 - [x] Intel HD Graphics 5500 (OCLP patch needed)
-- [x] Wifi (Atheros AR9565)
+- [x] Wifi (Atheros AR9565) (OCLP patch needed)
 - [x] Sound **(Internal Speaker and Headphone working)**
 - [x] Mic **(Internal and External both working)**
 - [x] SD Card Reader
@@ -89,11 +89,11 @@
 Do not update macOS. You can update only if you update the OC version and kext on your own. Otherwise wait for my update.
 There has two method to update. If update directly then the size of the update will be very high like 13gb. If you follow the 2nd method then the size will be 1gb or 2gb. But Ethernet cable needed.
 
-## Method 1:
+### Method 1:
 - Update macOS `System settings > General > Software Update`
 - Again root patch from OCLP.
 
-## Method 2:
+### Method 2:
 - open OCLP & revert the patch. `OCLP > Post Install Root Patch > Revert Root Patching` then Reboot your laptop.
 - Update macOS using Ethernet cable. `System settings > General > Software Update`
 - After the update again install the root patch from OCLP.
