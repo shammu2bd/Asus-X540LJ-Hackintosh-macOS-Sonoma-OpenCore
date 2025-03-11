@@ -1,10 +1,16 @@
-# Asus-X540LJ-Hackintosh-macOS-Sonoma-OpenCore
+# Asus-X540LJ-Hackintosh-macOS-Sonoma-sequoia-OpenCore
 
 # Asus Vivobook X540LJ
-- **Bootloader:** OpenCore 0.9.7
-- **macOS:** 14.2.1 Sonoma
+- **Bootloader:** OpenCore 1.0.2
+- **macOS:** 15.1 sequoia
 
 # Changelog
+
+### Update: 12-Mar-2025
+- Update OC 0.9.7 to 1.0.2
+- macOS sequoia 15.1 Support
+- Built-in Wifi Support
+
 ### Update: 05-Jan-2024
 - Initial Release of macOS Sonoma
 
@@ -28,6 +34,7 @@
 # WORKING:
 - [x] Power Management
 - [x] Intel HD Graphics 5500 (OCLP patch needed)
+- [x] Wifi (Atheros AR9565)
 - [x] Sound **(Internal Speaker and Headphone working)**
 - [x] Mic **(Internal and External both working)**
 - [x] SD Card Reader
@@ -39,17 +46,19 @@
 - [x] Battery Stat 
 - [x] Tempareture Monitor 
 - [x] Apple Store, iCloud, FaceTime, iMessege
+- [x] Universal Control
+- [x] Continuity Camera
 - [x] Fn feature **(Brightness and volume button works)**
 
 # Not WORKING:
 - [ ] Nvidia 920M GPU   **(will never work)**
-- [ ] Wifi (USB Wifi adapter needed)
+- [ ] Airdrop (Need apple supported wifi adapter)
 - [ ] Bluetooth (USB BT adapter needed)
 
 # Installation:
 
 ### Download this before Install:
-- `OCLP(OpenCore Legacy Patcher)`  `EFI Mounter`  `Provided EFI with Config folder` & most important `Patience`
+- `OCLP 2.2.0 (OpenCore Legacy Patcher)`  `EFI Mounter`  & most important `Patience`
 
 ### BIOS Settings
 - No need to change any BIOS settings. Set default BIOS settings.
@@ -59,14 +68,12 @@
 - Change the default BIOS settings.
 - Just put this EFI to your USB EFI partition.
 - If you don't know how to make bootable your USB then go [here.](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
-- Install macOS Sonoma to your SSD or HDD.
+- Install macOS Sonoma or sequoia to your SSD or HDD.
 - If you are new then go [here.](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html#prerequisites)
 - After install mount the USB EFI and copy this to your HDD or SSD EFI.
   
-### Fixing Graphics Driver:
-- Copy the 2nd config file `Configs > config 2 > config.plist` then past/replace it to your SSD EFI folder that located `EFI > OC`
-- Reboot your laptop.
-- Open OCLP (OpenCore Legacy Patcher) & install root patch `OCLP > Post Install Root Patch > Start Root Patching`
+### Fixing Graphics Driver & Wifi:
+- Open OCLP & install root patch `OCLP > Post Install Root Patch > Start Root Patching`
 - After fininishing the patching Reboot your laptop.
 
 ### iMessege & Facetime Fix:
@@ -78,11 +85,19 @@
 - Then type **Y** and enter.
 - Again type **Y** and enter.
 
-### Wifi & Bluetooth:
-- My Wifi & Bluetooth are from Atheros. It doesn't work on it. So that I use USB wifi adapter. If your wifi is not from Atheros then find the solution from google.
-
 ### Updating macOS:
-- I will give you the detail guide later.
+## Note:
+Do not update macOS. You can update only if you update the OC version and kext on your own. Otherwise wait for my update.
+There has two method to update. If update directly then the size of the update will be very high like 13gb. If you follow the 2nd method then the size will be 1gb or 2gb.
+
+## Method 1:
+- Update macOS `System settings > General > Software Update`
+- Again root patch from OCLP.
+
+## Method 2:
+- open OCLP & revert the patch. `OCLP > Post Install Root Patch > Revert Root Patching` then Reboot your laptop.
+- Update macOS using Ethernet cable. `System settings > General > Software Update`
+- After the update again install the root patch from OCLP.
 
 ## Credits
 @RehabMan for his guide for beginner
