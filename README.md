@@ -10,6 +10,7 @@
 - Update OC 0.9.7 to 1.0.2
 - macOS sequoia 15.1 Support
 - Built-in Wifi Support
+- patched Intel HD GPU VRAM 1536mb to 2048mb
 
 ### Update: 05-Jan-2024
 - Initial Release of macOS Sonoma
