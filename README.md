@@ -85,8 +85,7 @@
 - Then type **Y** and enter.
 - Again type **Y** and enter.
 
-## Updating macOS:
-## Important Note:
+## Important Note about Updating macOS:
 Do not update macOS. You can update only if you update the OC version and kext on your own. Otherwise wait for my update.
 There has two method to update. If update directly then the size of the update will be very high like 13gb. If you follow the 2nd method then the size will be 1gb or 2gb. But Ethernet cable needed.
 
