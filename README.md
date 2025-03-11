@@ -58,13 +58,13 @@
 # Installation:
 
 ### Download this before Install:
-- `OCLP 2.2.0 (OpenCore Legacy Patcher)`  `EFI Mounter`  & most important `Patience`
+- `OCLP 2.2.0 (OpenCore Legacy Patcher)`  `EFI Mounter` 
 
 ### BIOS Settings
 - No need to change any BIOS settings. Set default BIOS settings.
 - If you use extra monitor then disable `Launch CSM` in BIOS boot section.
 
-### Installing macOS Sonoma:
+### Installing macOS:
 - Change the default BIOS settings.
 - Just put this EFI to your USB EFI partition.
 - If you don't know how to make bootable your USB then go [here.](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
@@ -85,10 +85,10 @@
 - Then type **Y** and enter.
 - Again type **Y** and enter.
 
-### Updating macOS:
-## Note:
+## Updating macOS:
+## Important Note:
 Do not update macOS. You can update only if you update the OC version and kext on your own. Otherwise wait for my update.
-There has two method to update. If update directly then the size of the update will be very high like 13gb. If you follow the 2nd method then the size will be 1gb or 2gb.
+There has two method to update. If update directly then the size of the update will be very high like 13gb. If you follow the 2nd method then the size will be 1gb or 2gb. But Ethernet cable needed.
 
 ## Method 1:
 - Update macOS `System settings > General > Software Update`
