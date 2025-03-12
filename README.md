@@ -1,3 +1,5 @@
+# This repositories will be delected soon. Main repositories will be [here.](https://github.com/shammu2bd/Asus-X540LJ-Hackintosh-OpenCore/)
+
 # Asus-X540LJ-Hackintosh-macOS-Sonoma-sequoia-OpenCore
 
 - **Device:** Asus Vivobook X540LJ
