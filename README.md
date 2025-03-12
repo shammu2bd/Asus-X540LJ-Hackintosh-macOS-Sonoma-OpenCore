@@ -49,6 +49,7 @@
 - [x] Apple Store, iCloud, FaceTime, iMessege
 - [x] Universal Control
 - [x] Continuity Camera
+- [x] AirPlay
 - [x] Fn feature **(Brightness and volume button works)**
 
 # Not WORKING:
